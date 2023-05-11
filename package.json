@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "OpenVK API JavaScript implementation.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "Maxim \"maxqwars\" Maximenko <maxqwars@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^3.21.6"
+  }
 }
